@@ -486,7 +486,7 @@ print(class_report)
 ```
 Overall Classification Report:
 Precision for class 0 (absence of hypertension): 0.91
-Precision for class 1 (presence of hyperte
+Precision for class 1 (presence of hypertension): 0.98
 Recall for class 0: 0.98
 Recall for class 1: 0.91
 F1-score for both classes is 0.94, which represents a good balance between precision and recall.
@@ -495,3 +495,5 @@ These metrics indicate that the model is correctly identifying and predicting bo
 
 2.0 Recommendation
 The model's performance can be further enhanced by tuning the hyperparameters to optimize the Random Forest classifier's settings. Additionally, addressing the class imbalance by collecting more samples with a target of 1 (positive cases) would help to further balance the dataset. This would allow the model to learn better representations of the minority class, potentially improving its classification accuracy and generalizability
+
+To gain a deeper understanding and enhance your reading experience, feel free to explore more in my Medium article by clicking [here](https://medium.com/@adedokunjuliusayobami/random-forest-diabetes-prediction-1231341c3a79)
